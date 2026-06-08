@@ -1,11 +1,13 @@
 # QUALITY DECISION CARD  
-### Daily Use Companion to Core Quality Working and Testing Principles
+
+## Daily Use Companion to Core Quality Working and Testing Principles
 
 ---
 
 ## USE THIS CARD BEFORE TEST PLANNING, REVIEW, OR ESTIMATION
 
 ### 1) DEFINE THE CONTRACT
+
 - What outcome must be true?
 - Who depends on it?
 - What constraints must hold?
@@ -19,11 +21,14 @@ If any answer is unclear, return to the contract.
 ## 2) MAKE THE FIVE DECISIONS
 
 ### WHY
+
 What decision are we making?
 What risk are we trying to reduce?
 
 ### WHAT
+
 What kind of risk matters most?
+
 - Functional
 - Performance
 - Security
@@ -32,7 +37,9 @@ What kind of risk matters most?
 - Compliance
 
 ### WHERE
+
 Where should confidence be built?
+
 - Unit
 - Service
 - Integration
@@ -40,7 +47,9 @@ Where should confidence be built?
 - Business / UAT
 
 ### HOW
+
 How should we validate?
+
 - Manual
 - Automated
 - Semi-automated
@@ -48,7 +57,9 @@ How should we validate?
 - Synthetic
 
 ### WHEN
+
 When must this risk be reduced?
+
 - Discovery
 - Design
 - Refinement
@@ -73,6 +84,7 @@ If these are being used interchangeably as “test types,” stop and separate t
 ## 4) DEFINE “ENOUGH”
 
 Enough is reached when:
+
 - Critical risks are identified
 - Failure modes are understood
 - Verification proves those risks are controlled
@@ -86,6 +98,6 @@ Anything short of this leaves risk unbounded.
 
 Can the plan be expressed in this form?
 
-**Intent | Attribute | Level | Execution Mode | Timing**
+### Intent | Attribute | Level | Execution Mode | Timing
 
 If not, the plan is not clear enough yet.

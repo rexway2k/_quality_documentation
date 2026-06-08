@@ -1,5 +1,7 @@
 # CORE WORKING PRINCIPLES
+
 ## Foundation Document — Universal Application
+
 ### Version 1.5
 
 ---
@@ -19,13 +21,11 @@ with risk explicitly bounded and verification aligned to the contract.
 ## QUALITY PRINCIPLES
 
 **Quality = Expectations**
-
 Quality is not a property of output. It is the degree to which output matches
 the expectations of its consumers. A thing is high quality when it does exactly
 what its consumers need it to do. Nothing more is required. Nothing less is acceptable.
 
 **Contracts Exist Even When Unnamed**
-
 Every system, document, conversation, and relationship operates under contracts —
 explicit or implicit. Implicit contracts are the primary source of failure.
 The work is to name them, make them explicit, and get them agreed upon
@@ -33,14 +33,12 @@ before work begins. If you cannot name the contract, you do not understand
 the system well enough to build it.
 
 **Failures Are Mismatched Expectations**
-
 When something fails, the root cause is almost always a mismatch between
 what one party expected and what another delivered.
 Debugging a failure means finding the expectation mismatch, not just fixing the symptom.
 Future prevention means closing the gap at the contract level.
 
 **Risks Must Be Bounded**
-
 Every open variable is a risk. Unbounded risks compound.
 Before proceeding on any work, every dependency must be either resolved
 or explicitly flagged with its blast radius defined —
@@ -48,7 +46,6 @@ what does it affect, how far does it reach, what is blocked until it resolves.
 Nothing proceeds on an unbounded dependency.
 
 **Enough = Bounded Uncertainty**
-
 Completeness is not required before progress. Bounded uncertainty is.
 Every open item must be either resolved or explicitly flagged with its scope of impact defined.
 "Unknown" is not acceptable.
@@ -56,7 +53,6 @@ Every open item must be either resolved or explicitly flagged with its scope of 
 The goal is not to eliminate uncertainty — it is to contain it.
 
 **Human Effort Is a Quality Signal**
-
 Wherever human judgment, review, or intervention is required,
 that is a signal that the specification is incomplete or the automation is insufficient.
 Every instance of required human effort must be named, owned, and resolved —
@@ -65,21 +61,18 @@ that human judgment is appropriate here and building the review step into the pr
 Unacknowledged human effort is hidden risk.
 
 **System Speed Over Local Speed**
-
 Optimizing a single component at the expense of the system is false progress.
 The highest-dependency items must be resolved first even when they are harder,
 because everything downstream accelerates once they are locked.
 Local progress on unresolved upstream dependencies is work that will be redone.
 
 **Early Conflict Over Late Surprises**
-
 Disagreements, mismatches, and incompatibilities discovered early are cheap to resolve.
 The same conflicts discovered late are expensive, sometimes catastrophic.
 Surface conflicts immediately. Do not defer uncomfortable questions.
 A conflict named early is a feature. A conflict discovered in final output is a failure.
 
 **Quality Enables Progress — It Does Not Block It**
-
 Quality work is not slow work.
 A well-specified system moves faster than an under-specified one
 because it eliminates rework, misalignment, and late surprises.
@@ -87,7 +80,6 @@ Quality investment at the front end is the fastest path to completion.
 Quality is the accelerator, not the brake.
 
 **Automation Preserves Clarity**
-
 Wherever repetitive judgment, verification, or consistency-checking is required,
 automation is preferred over human repetition.
 Scripted and programmatic verification reduces human judgment burden,
@@ -108,6 +100,7 @@ It exists at every relational transaction layer, all the way to the smallest uni
 The same principles apply whether the transaction is between:
 
 **In systems and software:**
+
 - Business goal and system capability
 - System and its subsystems
 - Architecture and implementation
@@ -118,6 +111,7 @@ The same principles apply whether the transaction is between:
 - Release and user
 
 **In team and organizational interactions:**
+
 - Stakeholder and product owner
 - Product owner and business analyst
 - Business analyst and solutions architect
@@ -127,6 +121,7 @@ The same principles apply whether the transaction is between:
 - Any producer role and any consumer role at any layer
 
 **In content and communication:**
+
 - Argument and the system it describes
 - Document and its reader
 - Section and its parent document
@@ -135,6 +130,7 @@ The same principles apply whether the transaction is between:
 - Word and the precision it must carry
 
 **In AI and prompt engineering:**
+
 - Objective and prompt design
 - Prompt and model instruction
 - Instruction and output
@@ -237,9 +233,9 @@ are used interchangeably across different dimensions.
 Each dimension answers a different question.
 Mixing them results in unclear plans, redundant effort, and unbounded risk.
 
-
 **WHY → Testing Intent (Decision Being Supported)**
 Derived from:
+
 - Outcome
 - Consumers
 - Failure Modes
@@ -252,6 +248,7 @@ If the decision is unclear, the intent is undefined.
 
 **WHAT → Quality Attribute (Type of Risk)**
 Derived from:
+
 - Constraints
 - Failure Modes
 
@@ -264,6 +261,7 @@ If the risk is unclear, the attribute focus is incorrect.
 
 **WHERE → Test Level (Where Confidence Is Built)**
 Derived from:
+
 - Structure
 - Dependency boundaries
 
@@ -277,6 +275,7 @@ If the system boundaries are unclear, test placement is incorrect.
 
 **HOW → Execution Mode (How Validation Occurs)**
 Derived from:
+
 - Verification
 
 Execution mode defines how validation is performed
@@ -288,15 +287,14 @@ If verification is unclear, execution mode cannot be chosen correctly.
 ---
 
 **WHEN → Lifecycle Timing (When Decisions and Execution Occur)**
+Testing is not a phase.
+It is a continuous expression of contract definition and verification across the lifecycle.
 
 - Test intent is defined at the start, when outcomes and expectations are clarified
 - Test levels are decided during design
 - Test details are defined during refinement
 - Execution occurs primarily during build and deploy
 - Business validation occurs at release
-
-Testing is not a phase.
-It is a continuous expression of contract definition and verification across the lifecycle.
 
 Timing decisions determine when risk is reduced.
 Delaying risk reduction increases cost, impact, and likelihood of system failure.
@@ -319,6 +317,7 @@ If these cannot be explained, the contract is incomplete.
 ---
 
 All five dimensions are driven by risk.
+
 - WHY defines the decision being made
 - WHAT defines the type of risk
 - WHERE defines where it is validated
@@ -329,6 +328,7 @@ The completeness of testing is not determined by coverage.
 It is determined by whether risk is sufficiently bounded.
 
 “Enough” is reached when:
+
 - critical risks are identified
 - failure modes are understood
 - verification proves those risks are controlled
@@ -339,7 +339,7 @@ Anything short of this leaves the system exposed to failure.
 
 ---
 
-### FINAL REDUCTION
+### FINAL TEST DECISION REDUCTION
 
 All quality and testing decisions reduce to this:
 
@@ -423,7 +423,7 @@ When these occur, return to the contract definition.
 
 ---
 
-### FINAL REDUCTION
+### FINAL QUALITY REDUCTION
 
 All quality systems must produce:
 

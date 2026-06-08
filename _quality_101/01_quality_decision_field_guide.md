@@ -1,5 +1,6 @@
 # QUALITY DECISION FIELD GUIDE
-### Companion to Core Quality Working and Testing Principles
+
+## Companion to Core Quality Working and Testing Principles
 
 ---
 
@@ -8,6 +9,7 @@
 This guide translates the core principles into a practical decision tool.
 
 Use this to:
+
 - Plan testing  
 - Evaluate quality decisions  
 - Align teams  
@@ -45,6 +47,7 @@ Every test must be defined using all five:
 **What risk are we trying to reduce?**
 
 Examples:
+
 - Can we release this?
 - Did this change break anything?
 - Can consumers rely on this?
@@ -59,6 +62,7 @@ If this is unclear → testing has no purpose
 **What type of failure matters most?**
 
 Common dimensions:
+
 - Functional (correctness)
 - Performance (speed / scale)
 - Security (protection)
@@ -75,6 +79,7 @@ If this is unclear → risk is not properly targeted
 **Where in the system should confidence be built?**
 
 Levels:
+
 - Unit (logic in isolation)
 - Service (behavior at boundaries)
 - Integration (systems working together)
@@ -90,6 +95,7 @@ If this is unclear → validation is misplaced or redundant
 **How will we validate efficiently?**
 
 Options:
+
 - Manual (judgment / exploration)
 - Automated (repeatable, stable validation)
 - Semi-automated (complex scenarios)
@@ -150,6 +156,7 @@ Testing is complete when:
 - Verification proves those risks are controlled  
 
 Not when:
+
 - All possible tests are written  
 - All scenarios are explored  
 - Coverage feels “high enough”  
@@ -174,9 +181,10 @@ Before executing:
 
 Can you explain, in one line:
 
-**Intent | Attribute | Level | Execution Mode**
+### Intent | Attribute | Level | Execution Mode
 
 Example format:
+
 - Change Impact | Functional | Service | Automated  
 
 If not → the decision is not yet clear

@@ -1,5 +1,6 @@
 # QUALITY DECISION VISUAL GRID  
-### Companion to Core Quality Working and Testing Principles
+
+## Companion to Core Quality Working and Testing Principles
 
 ---
 
@@ -29,13 +30,13 @@ The testing plan is not ready yet.
 
 ## THE DECISION GRID
 
-| DIMENSION | QUESTION | DECIDES | FAILURE IF UNCLEAR |
+|DIMENSION|QUESTION|DECIDES|FAILURE IF UNCLEAR|
 |---|---|---|---|
-| **WHY** | What decision are we trying to make? | Testing intent | Testing has no purpose |
-| **WHAT** | What kind of risk matters most? | Quality attribute | Risk is not targeted |
-| **WHERE** | Where should confidence be built? | Test level | Validation is misplaced |
-| **HOW** | How should we validate efficiently? | Execution mode | Effort is inefficient |
-| **WHEN** | When must risk be reduced? | Lifecycle timing | Risk is discovered too late |
+|**WHY**|What decision are we trying to make?|Testing intent|Testing has no purpose|
+|**WHAT**|What kind of risk matters most?|Quality attribute|Risk is not targeted|
+|**WHERE**|Where should confidence be built?|Test level|Validation is misplaced|
+|**HOW**|How should we validate efficiently?|Execution mode|Effort is inefficient|
+|**WHEN**|When must risk be reduced?|Lifecycle timing|Risk is discovered too late|
 
 ---
 
@@ -81,11 +82,11 @@ Enough means risk is bounded.
 
 A plan is ready only if it can be explained in one line:
 
-**Intent | Attribute | Level | Execution Mode | Timing**
+`Intent | Attribute | Level | Execution Mode | Timing`
 
 Example shape:
 
-**Change Impact | Functional | Service | Automated | Build**
+`Change Impact | Functional | Service | Automated | Build`
 
 ---
 
