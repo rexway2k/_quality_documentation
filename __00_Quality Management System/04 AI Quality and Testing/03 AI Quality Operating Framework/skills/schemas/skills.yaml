@@ -1,0 +1,145 @@
+system:
+  name: Universal Quality Skill System
+  version: "1.0"
+  description: >
+    A tool-agnostic quality operating layer for AI agents that enables
+    contract definition, ambiguity reduction, risk bounding, execution alignment,
+    and verification across any task.
+
+layers:
+
+  - id: L0
+    name: Principle Understanding
+    skills:
+      - id: L0.S1
+        name: Interpret Principles
+        description: Translate principles into operational meaning for the current context.
+
+      - id: L0.S2
+        name: Apply Fractal Contract Logic
+        description: Ensure contracts exist at every level of a system.
+
+      - id: L0.S3
+        name: Resolve Principle Tension
+        description: Resolve conflicts between principles using defined precedence.
+
+      - id: L0.S4
+        name: Detect Principle Violations
+        description: Identify when behavior or output deviates from governing principles.
+
+      - id: L0.S5
+        name: Trace Decisions to Principles
+        description: Map decisions and outputs to principles for explainability.
+
+      - id: L0.S6
+        name: Operationalize Principles
+        description: Convert abstract principles into actionable steps.
+
+  - id: L1
+    name: Contract Definition
+    skills:
+      - id: L1.S1
+        name: Define Contract
+        description: Define explicit expectations between producer and consumer.
+
+      - id: L1.S2
+        name: Identify Consumers
+        description: Determine all entities that depend on the output.
+
+      - id: L1.S3
+        name: Apply Quality Questions
+        description: >
+          Use outcome, consumers, constraints, structure, failure modes,
+          and verification to define work.
+
+      - id: L1.S4
+        name: Define Constraints
+        description: Establish what must be true and what cannot be violated.
+
+      - id: L1.S5
+        name: Define Structure
+        description: Define the expected shape of the output before execution.
+
+  - id: L2
+    name: Risk and Verification
+    skills:
+      - id: L2.S1
+        name: Identify Failure Modes
+        description: Determine how the work or system can fail.
+
+      - id: L2.S2
+        name: Bound Risk
+        description: Ensure all uncertainty is resolved or explicitly bounded.
+
+      - id: L2.S3
+        name: Define Verification
+        description: Specify how correctness will be proven.
+
+      - id: L2.S4
+        name: Classify Uncertainty
+        description: Distinguish between resolved, bounded, and unbounded unknowns.
+
+      - id: L2.S5
+        name: Determine Execution Readiness
+        description: Decide whether to proceed, proceed with caveats, or pause.
+
+      - id: L2.S6
+        name: Derive Test Strategy
+        description: >
+          Translate risk and verification into structured validation decisions.
+
+  - id: L3
+    name: Execution
+    skills:
+      - id: L3.S1
+        name: Execute Work
+        description: Perform the task according to the defined contract.
+
+      - id: L3.S2
+        name: Maintain Contract Alignment
+        description: Ensure output remains aligned to expectations during execution.
+
+      - id: L3.S3
+        name: Apply Structured Decision Model
+        description: Use WHY, WHAT, WHERE, and HOW to guide decisions.
+
+      - id: L3.S4
+        name: Generate Output
+        description: Produce the final artifact.
+
+      - id: L3.S5
+        name: Surface Assumptions
+        description: Make all assumptions visible when operating under uncertainty.
+
+      - id: L3.S6
+        name: Handle Ambiguity
+        description: >
+          Continue execution when uncertainty is bounded without blocking progress.
+
+  - id: L4
+    name: Review and Feedback
+    skills:
+      - id: L4.S1
+        name: Diagnose Failure
+        description: Identify mismatches between expected and actual outcomes.
+
+      - id: L4.S2
+        name: Trace Failure to Contract
+        description: Locate the origin of failure in the contract chain.
+
+      - id: L4.S3
+        name: Validate Output Quality
+        description: Evaluate whether output meets expectations.
+
+      - id: L4.S4
+        name: Verify Output
+        description: Apply validation methods to confirm correctness.
+
+      - id: L4.S5
+        name: Capture Learnings
+        description: Record insights for future improvement.
+
+      - id: L4.S6
+        name: Support Human Override
+        description: Allow human decisions to override system gating when needed.
+``

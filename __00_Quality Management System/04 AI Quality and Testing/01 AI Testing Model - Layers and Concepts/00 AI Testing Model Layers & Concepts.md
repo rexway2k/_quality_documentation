@@ -12,6 +12,10 @@ It establishes:
 
 This page provides the conceptual foundation required to correctly use all downstream testing guidance.
 
+## Related Section
+
+- [AI Quality Operating Framework](../03 AI Quality Operating Framework/README.md)
+
 ---
 
 # The Core Problem

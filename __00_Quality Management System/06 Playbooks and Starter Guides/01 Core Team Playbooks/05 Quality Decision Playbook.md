@@ -58,8 +58,13 @@ Validation should happen early enough to reduce cost and uncertainty. The earlie
 - [ ] The team knows how and when to validate
 - [ ] The decision is documented or discussed clearly
 
+## Companion Materials
+
+- [Quality Decision Field Guide](05.1 Quality Decision Field Guide.md)
+- [Quality Decision Card](05.2 Quality Decision Card.md)
+- [Quality Decision Visual Grid](05.3 Quality Decision Visual Grid.md)
+
 ## Source Materials
 
-- [Quality Decision Field Guide](../../../Archive_Save/_quality_101/01_quality_decision_field_guide.md)
 - [Testing Strategy Overview](../../02 Test Strategy/00 Testing Strategy Overview.md)
 - [What to Test, Where, When, and How Playbook](02 What to Test, Where, When, and How Playbook.md)
